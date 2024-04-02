@@ -1,0 +1,19 @@
+{
+    "education":[
+        {
+            "title": "Jan 2020 - Dec 2022",
+            "cardTitle": "B.Tech, Computer Science",
+            "cardSubtitle":"XYZ University, City",
+            "cardDetailedText": "CGPA - 9.5",
+            "icon" : {
+                "src": "images/education/lorem-ipsum.png"
+            }
+        },
+        {
+            "title": "Apr 20XX",
+            "cardTitle": "High School",
+            "cardSubtitle":"ETEC, Poa",
+            "cardDetailedText": "Marks - 95%"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://br.linkedin.com/in/rafael-calixtoo/"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/rafael-calixto"
+        },
+        {
+            "network" : "email",
+            "href": "dsenvolvendosistemas@gmail.com"
+        }
+    ]
+}
