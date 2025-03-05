@@ -7,7 +7,7 @@
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
+                    "href": "https://github.com/rafael-calixto1/portifolio"
                 },
                 {
                     "text": "Live",
@@ -21,13 +21,13 @@
             ]
         },
         {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
+            "image" : "images/projects/passage-pay.png",
+            "title": "Passage Pay",
             "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
+                    "href": "https://github.com/rafael-calixto1/passage-pay"
                 },
                 {
                     "text": "Live",
@@ -35,46 +35,44 @@
                 }
             ],
             "tags" : [
-                "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
+                "NodeJS"
             ]
         },
         {
-            "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
+            "image" : "images/projects/chat-app-logo.jpg",
+            "title": "Chat App",
             "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
+                    "href": "https://github.com/rafael-calixto1/chat-app"
                 }
             ],
             "tags" : [
-                "Java",
-                "Android",
-                "Alarm Manager",
-                "VIT"
+                "Java 17",
+                "Spring Boot 3",
+                "Spring Security",
+                "MySQL",
+                "WebSockets",
+                "Swagger",
+                "ReactJs",
+                "Docker"
             ]
         },
         {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
+            "title": "Chat App",
+            "bodyText": " A real-time chat application built with **Spring Boot 3** and **React**.\n - Secure authentication using **JWT** and **Spring Security**.\n - Supports **WebSockets** for instant messaging.\n - Uses **MySQL** to store message history.\n - API documented with **Swagger** for easy testing.\n ",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
+                    "href": "https://github.com/rafael-calixto1/chat-app"
                 }
             ],
             "tags" : [
                 "Java",
-                "Android",
-                "Firebase",
-                "RSA"
+                "SpringBoot",
+                "ReactJS",
+                "Docker"
             ]
         },
         {

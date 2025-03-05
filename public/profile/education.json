@@ -1,19 +1,22 @@
 {
     "education":[
         {
-            "title": "Jan 2020 - Dec 2022",
+            "title": "Jun 2023 - Jun 2027",
             "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
+            "cardSubtitle":"University Braz Cubas, Mogi das Cruzes",
+            "cardDetailedText": "CGPA - 7.7",
             "icon" : {
-                "src": "images/education/lorem-ipsum.png"
+                "src": "images/education/braz-cubas.png"
             }
         },
         {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
+            "title": "2021-2023",
+            "cardTitle": "Associate's degree, Computer Science",
             "cardSubtitle":"ETEC, Poa",
-            "cardDetailedText": "Marks - 95%"
+            "cardDetailedText": "Marks - 95%",
+            "icon" : {
+                "src": "images/education/etec.png"
+            }
         }
     ]
 }

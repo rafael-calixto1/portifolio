@@ -1,9 +1,10 @@
 {
     "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with:",
-    "skills": [
-        {
+    "skills": [{
+     
             "title": "Languages & Databases",
-            "items": [
+            "items" : [
+     
                 {
                     "icon": "images/skills/java.png",
                     "title": "Java"
@@ -21,37 +22,32 @@
                     "title": "Python"
                 },
                 {
-                    "icon": "images/skills/postgresql.png",
-                    "title": "PostgreSQL"
-                },
-                {
-                    "icon": "images/skills/mongo-db.png",
-                    "title": "MongoDB"
-                },
-                {
                     "icon": "images/skills/mysql.png",
                     "title": "MySQL"
                 },
                 {
-                    "icon": "images/skills/c.png",
-                    "title": "C"
+                    "icon": "images/skills/oracle.png",
+                    "title": "Oracle DB"
+                },
+                {
+                    "icon": "images/skills/postgresql.png",
+                    "title": "PostgreSQL"
                 },
                 {
                     "icon": "images/skills/c-sharp.png",
-                    "title": "C#"
-                },
-                {
-                    "icon": "images/skills/typescript.png",
-                    "title": "TypeScript"
+                    "title": "C-Sharp"
                 }
-            ]
-        },
+        ]},
         {
             "title": "Frameworks & Technologies",
-            "items": [
+            "items" : [
                 {
-                    "icon": "images/skills/spring.png",
-                    "title": "SpringBoot"
+                    "icon": "images/skills/spring-boot.png",
+                    "title": "spring"
+                },
+                {
+                    "icon": "images/skills/android_new.png",
+                    "title": "Android"
                 },
                 {
                     "icon": "images/skills/react.png",
@@ -62,17 +58,34 @@
                     "title": "Nodejs"
                 },
                 {
-                    "icon": "images/skills/bootstrap.png",
-                    "title": "Bootstrap"
+                    "icon": "/images/skills/react.png",
+                    "title": "React Native"
+                },
+                {
+                    "icon": "/images/skills/laravel.png",
+                    "title": "React Native"
                 }
+                
             ]
         },
         {
-            "title": "  ",
+            "title" : "Tools & Platforms",
             "items": [
                 {
-                    "icon": "images/skills/android-studio.png",
+                    "icon": "images/skills/aws.png",
                     "title": "Android Studio"
+                },
+                {
+                    "icon": "images/skills/ci-cd.png",
+                    "title": "CI & CD"
+                },
+                {
+                    "icon": "images/skills/github_action.png",
+                    "title": "Github Actions"
+                },
+                {
+                    "icon": "images/skills/azure.png",
+                    "title": "Azure"
                 },
                 {
                     "icon": "images/skills/git.png",
@@ -81,20 +94,10 @@
                 {
                     "icon": "images/skills/docker.png",
                     "title": "Docker"
-                },
-                    {
-                    "icon": "images/skills/postman.png",
-                    "title": "Postman"
-                },
-                {
-                    "icon": "images/skills/intelliJ.png",
-                    "title": "IntelliJ IDEA"
-                },
-                {
-                    "icon": "images/skills/grafana.png",
-                    "title": "Grafana"
+                },{
+                    "icon": "images/skills/jenkins.png",
+                    "title": "Jenkins"
                 }
             ]
-        }
-    ]
-}
+    }
+]}
