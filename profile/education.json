@@ -1,0 +1,22 @@
+{
+    "education":[
+        {
+            "title": "Jun 2023 - Jun 2027",
+            "cardTitle": "B.Tech, Computer Science",
+            "cardSubtitle":"University Braz Cubas, Mogi das Cruzes",
+            "cardDetailedText": "CGPA - 7.7",
+            "icon" : {
+                "src": "images/education/braz-cubas.png"
+            }
+        },
+        {
+            "title": "2021-2023",
+            "cardTitle": "Associate's degree, Computer Science",
+            "cardSubtitle":"ETEC, Poa",
+            "cardDetailedText": "Marks - 95%",
+            "icon" : {
+                "src": "images/education/etec.png"
+            }
+        }
+    ]
+}

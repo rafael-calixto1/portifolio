@@ -1,0 +1,64 @@
+{
+    "experiences": [
+        {
+            "title": "Backend Developer",
+            "subtitle": "Freelance",
+            "workType": "Freelance",
+            "workDescription": [
+                "Developed and maintained fullstack applications using **Java (Spring Boot), Node.js, and React**.",
+                "Optimized backend performance by implementing **caching, database indexing, and query optimizations**.",
+                "Integrated **REST APIs and WebSockets** to enable real-time communication in applications.",
+                "Deployed and maintained cloud-based solutions using **AWS (EC2, RDS), Docker, and Kubernetes**."
+            ],
+            "dateText": "Present"
+        },
+        {
+            "title": "Quality Assurance Tester",
+            "subtitle": "Payever",
+            "workType": "Full-time",
+            "workDescription": [
+                "Performed **manual and automated software testing** to ensure application quality and stability.",
+                "Tested APIs using **Postman** and implemented **UI/UX validation** for web applications.",
+                "Worked with **Cypress** to automate frontend tests, increasing test coverage."
+            ],
+            "dateText": "02/2024 – 03/2024"
+        },
+        {
+            "title": "Backend Developer",
+            "subtitle": "F32 Bet",
+            "workType": "Full-time",
+            "workDescription": [
+                "Developed a **web platform** consuming a **main API**, requiring data transformation for Latin American regional requirements.",
+                "Refactored and extended a **Laravel system**, ensuring compatibility with external services.",
+                "Integrated multiple **payment gateways**, handling currency conversions, fraud prevention, and local banking regulations.",
+                "Built the **frontend with React**, solving **performance issues related to CDN caching** and optimizing asset delivery.",
+                "Resolved **CORS issues** and improved API request handling for smooth **cross-origin communication**."
+            ],
+            "dateText": "01/2023 – 10/2023"
+        },
+        {
+            "title": "Information Technology Technician",
+            "subtitle": "Conexão Web Telecom",
+            "workType": "Full-time",
+            "workDescription": [
+                "Developed and implemented software solutions using **Spring Boot (backend)** and **React with TailwindCSS (frontend)**.",
+                "Integrated external **REST APIs** into an existing ERP system and implemented **WebSockets** for real-time communication.",
+                "Designed and deployed a **fleet management web application**, working closely with the client from concept to deployment.",
+                "Monitored and managed **server health and performance** using **Zabbix and Grafana**."
+            ],
+            "dateText": "06/2022 – 01/2023"
+        },
+        {
+            "title": "Quality Assurance",
+            "subtitle": "Conexão Web Telecom",
+            "workType": "Full-time",
+            "workDescription": [
+                "Performed **manual and automated software testing** to ensure application reliability.",
+                "Developed automation scripts using **Python and Selenium**, improving efficiency by reducing repetitive workflows.",
+                "Implemented **monitoring and dashboards** for large-scale networks with over **10,000 clients**, using **Grafana, Zabbix, and GineACS**.",
+                "Configured and maintained **networking equipment**, including routers, Mikrotiks, and OLTs."
+            ],
+            "dateText": "01/2022 – 06/2022"
+        }
+    ]
+}
