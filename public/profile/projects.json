@@ -7,7 +7,7 @@
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/rafael-calixto1/portifolio"
+                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
                 },
                 {
                     "text": "Live",
@@ -21,58 +21,43 @@
             ]
         },
         {
-            "image" : "images/projects/passage-pay.png",
-            "title": "Passage Pay",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
+            "image" : "images/projects/gemini-poster.png",
+            "title": "Gemini Chat",
+            "bodyText": "- A modern chat application powered by Google's Gemini AI model for intelligent conversations and assistance.\n - Features real-time chat interface with natural language processing capabilities.\n - Built with Next.js/React.js frontend and Node.js backend.\n - Implements WebSocket for real-time communication.\n - Secure integration with Google's Gemini AI API.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/rafael-calixto1/passage-pay"
-                },
-                {
-                    "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
+                    "href": "https://github.com/rafael-calixto1/gemini-chat"
                 }
             ],
             "tags" : [
-                "NodeJS"
+                "Next.js",
+                "React.js",
+                "Node.js",
+                "WebSocket",
+                "Google Gemini AI",
+                "JavaScript"
             ]
         },
         {
-            "image" : "images/projects/chat-app-logo.jpg",
-            "title": "Chat App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
+            "image" : "images/projects/smart-fleet-poster.png",
+            "title": "SmartFleet - Fleet Management System",
+            "bodyText": "- A comprehensive fleet management system for organizations to manage vehicle fleets efficiently.\n - Features include real-time tracking, maintenance scheduling, and driver management.\n - Built with a modern tech stack: React.js/TypeScript frontend and Node.js/Express backend.\n - Includes fuel consumption analytics and maintenance history tracking.\n - Complete with reporting dashboard and JWT authentication.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/rafael-calixto1/chat-app"
+                    "href": "https://github.com/rafael-calixto1/SmartFleet"
                 }
             ],
             "tags" : [
-                "Java 17",
-                "Spring Boot 3",
-                "Spring Security",
+                "TypeScript",
+                "React.js",
+                "Node.js",
+                "Express.js",
                 "MySQL",
-                "WebSockets",
-                "Swagger",
-                "ReactJs",
-                "Docker"
-            ]
-        },
-        {
-            "title": "Chat App",
-            "bodyText": " A real-time chat application built with **Spring Boot 3** and **React**.\n - Secure authentication using **JWT** and **Spring Security**.\n - Supports **WebSockets** for instant messaging.\n - Uses **MySQL** to store message history.\n - API documented with **Swagger** for easy testing.\n ",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/rafael-calixto1/chat-app"
-                }
-            ],
-            "tags" : [
-                "Java",
-                "SpringBoot",
-                "ReactJS",
-                "Docker"
+                "Material-UI",
+                "Redux",
+                "Jest"
             ]
         },
         {
@@ -96,21 +81,22 @@
             ]
         },
         {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
+            "title": "RouterControl Bot",
+            "bodyText": "- A WhatsApp bot built with Venom-bot and Rasa to control and configure ZTE-F670LV9.0 routers.\n - Reset ZTE-F670LV9.0 routers with a simple WhatsApp command (reset v9).\n - Configure ZTE-F670LV9.0 routers through WhatsApp.\n - Natural language understanding powered by Rasa.\n - Automated browser interaction using Selenium.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
+                    "href": "https://github.com/rafael-calixto1/whatsapp-router-control-bot"
                 }
             ],
             "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
+                "Python",
+                "Node.js",
+                "Rasa",
+                "Venom-bot",
+                "Selenium",
+                "WhatsApp",
+                "Automation"
             ]
         },
         {
