@@ -98,21 +98,22 @@
             ]
         },
         {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
+            "title": "RouterControl Bot",
+            "bodyText": "- A WhatsApp bot built with Venom-bot and Rasa to control and configure ZTE-F670LV9.0 routers.\n - Reset ZTE-F670LV9.0 routers with a simple WhatsApp command (reset v9).\n - Configure ZTE-F670LV9.0 routers through WhatsApp.\n - Natural language understanding powered by Rasa.\n - Automated browser interaction using Selenium.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
+                    "href": "https://github.com/rafael-calixto1/whatsapp-router-control-bot"
                 }
             ],
             "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
+                "Python",
+                "Node.js",
+                "Rasa",
+                "Venom-bot",
+                "Selenium",
+                "WhatsApp",
+                "Automation"
             ]
         },
         {
