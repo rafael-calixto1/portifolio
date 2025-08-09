@@ -1,10 +1,10 @@
 {
     "education":[
         {
-            "title": "Jun 2023 - Jun 2027",
+            "title": "Aug 2023 - Jun 2027",
             "cardTitle": "B.Tech, Computer Science",
             "cardSubtitle":"University Braz Cubas, Mogi das Cruzes",
-            "cardDetailedText": "CGPA - 7.7",
+            "cardDetailedText": "CGPA - 8.3",
             "icon" : {
                 "src": "images/education/braz-cubas.png"
             }

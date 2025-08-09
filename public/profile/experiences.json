@@ -1,16 +1,26 @@
 {
     "experiences": [
         {
-            "title": "Backend Developer",
-            "subtitle": "Freelance",
-            "workType": "Freelance",
+            "title": "Information Technology Technician",
+            "subtitle": "Conexão Web Telecom",
+            "workType": "Full-time",
             "workDescription": [
                 "Developed and maintained fullstack applications using **Java (Spring Boot), Node.js, and React**.",
                 "Optimized backend performance by implementing **caching, database indexing, and query optimizations**.",
-                "Integrated **REST APIs and WebSockets** to enable real-time communication in applications.",
-                "Deployed and maintained cloud-based solutions using **AWS (EC2, RDS), Docker, and Kubernetes**."
+                "Integrated **REST APIs and WebSockets** to enable real-time communication in applications."
             ],
             "dateText": "Present"
+        },
+        {
+            "title": "Backend Developer",
+            "subtitle": "Pipoca Ágil",
+            "workType": "Full-time",
+            "workDescription": [
+                "Developed backend solutions using **Node.js**, focusing on scalability and maintainability.",
+                "Applied **Agile methodologies** (Scrum and Kanban) to ensure efficient software delivery.",
+                "Built scalable solutions to **optimize and automate internal processes**."
+            ],
+            "dateText": "05/2024 – 02/2025"
         },
         {
             "title": "Quality Assurance Tester",
@@ -24,17 +34,15 @@
             "dateText": "02/2024 – 03/2024"
         },
         {
-            "title": "Backend Developer",
-            "subtitle": "F32 Bet",
+            "title": "Full Stack Developer",
+            "subtitle": "Pipoca Ágil",
             "workType": "Full-time",
             "workDescription": [
-                "Developed a **web platform** consuming a **main API**, requiring data transformation for Latin American regional requirements.",
-                "Refactored and extended a **Laravel system**, ensuring compatibility with external services.",
-                "Integrated multiple **payment gateways**, handling currency conversions, fraud prevention, and local banking regulations.",
-                "Built the **frontend with React**, solving **performance issues related to CDN caching** and optimizing asset delivery.",
-                "Resolved **CORS issues** and improved API request handling for smooth **cross-origin communication**."
+                "Developed **full stack applications** using **React** for the frontend and **Spring Boot** for the backend.",
+                "Applied **Agile methodologies** (Scrum and Kanban) to deliver high-quality software in iterative cycles.",
+                "Built scalable solutions to improve **internal workflows and operational efficiency**."
             ],
-            "dateText": "01/2023 – 10/2023"
+            "dateText": "01/2023 – 11/2023"
         },
         {
             "title": "Information Technology Technician",
@@ -59,6 +67,20 @@
                 "Configured and maintained **networking equipment**, including routers, Mikrotiks, and OLTs."
             ],
             "dateText": "01/2022 – 06/2022"
+        },
+        {
+            "title": "IT Support",
+            "subtitle": "Lan House & Games PACHECO",
+            "workType": "Full-time",
+            "workDescription": [
+                "Provided **technical support and customer guidance** in person, with empathy and clarity.",
+                "Resolved recurring questions and implemented improvements in customer service processes.",
+                "Maintained **local network infrastructure** and ensured smooth operation of IT systems.",
+                "Collaborated in **organizational and process improvements** to increase efficiency.",
+                "Identified recurring issues and developed proactive solutions to optimize service.",
+                "Contributed to **administrative processes**, including cash control and product sales."
+            ],
+            "dateText": "2012 – 2016"
         }
     ]
 }
