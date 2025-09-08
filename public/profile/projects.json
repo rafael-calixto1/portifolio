@@ -20,6 +20,7 @@
                 "JavaScript"
             ]
         },
+        
         {
             "image" : "images/projects/gemini-poster.png",
             "title": "Gemini Chat",
@@ -59,7 +60,27 @@
                 "Redux",
                 "Jest"
             ]
+        }, 
+        {
+            "image": "images/projects/finance.png",
+            "title": "Finance Simulator",
+            "bodyText": "- A white-label income simulation tool built with Spring Boot and React.\n- Simulates compound interest investments and visualizes the results.\n- Features interactive charts and a detailed monthly breakdown.\n- Supports multiple languages and currencies.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/rafael-calixto1/finance"
+                }
+            ],
+            "tags": [
+                "Java",
+                "Spring Boot",
+                "React.js",
+                "JavaScript",
+                "Finance",
+                "Compound Interest"
+            ]
         },
+
         {
             "title": "MVVM Sample App",
             "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
