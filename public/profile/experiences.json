@@ -5,22 +5,13 @@
             "subtitle": "Conexão Web Telecom",
             "workType": "Full-time",
             "workDescription": [
-                "Developed and maintained fullstack applications using **Java (Spring Boot), Node.js, and React**.",
-                "Optimized backend performance by implementing **caching, database indexing, and query optimizations**.",
-                "Integrated **REST APIs and WebSockets** to enable real-time communication in applications."
+                "Develop and maintain **backend (Spring Boot, Node.js) and frontend (React)** applications for internal systems.",
+                "Perform **software testing and validation** to ensure the quality and reliability of internal systems.",
+                "Monitor critical servers and services with **Zabbix and Grafana**, ensuring high availability.",
+                "Automate technical and administrative processes using **Python and Linux**, reducing manual work and operational failures.",
+                "Configure and manage network equipment, including **OLTs and TR-069 devices (GenieACS)**."
             ],
             "dateText": "Present"
-        },
-        {
-            "title": "Backend Developer",
-            "subtitle": "Pipoca Ágil",
-            "workType": "Full-time",
-            "workDescription": [
-                "Developed backend solutions using **Node.js**, focusing on scalability and maintainability.",
-                "Applied **Agile methodologies** (Scrum and Kanban) to ensure efficient software delivery.",
-                "Built scalable solutions to **optimize and automate internal processes**."
-            ],
-            "dateText": "05/2024 – 02/2025"
         },
         {
             "title": "Quality Assurance Tester",
@@ -34,17 +25,6 @@
             "dateText": "02/2024 – 03/2024"
         },
         {
-            "title": "Full Stack Developer",
-            "subtitle": "Pipoca Ágil",
-            "workType": "Full-time",
-            "workDescription": [
-                "Developed **full stack applications** using **React** for the frontend and **Spring Boot** for the backend.",
-                "Applied **Agile methodologies** (Scrum and Kanban) to deliver high-quality software in iterative cycles.",
-                "Built scalable solutions to improve **internal workflows and operational efficiency**."
-            ],
-            "dateText": "01/2023 – 11/2023"
-        },
-        {
             "title": "Information Technology Technician",
             "subtitle": "Conexão Web Telecom",
             "workType": "Full-time",
@@ -52,6 +32,7 @@
                 "Developed and implemented software solutions using **Spring Boot (backend)** and **React with TailwindCSS (frontend)**.",
                 "Integrated external **REST APIs** into an existing ERP system and implemented **WebSockets** for real-time communication.",
                 "Designed and deployed a **fleet management web application**, working closely with the client from concept to deployment.",
+                "Optimized and maintained **MySQL and PostgreSQL** databases supporting internal applications.",
                 "Monitored and managed **server health and performance** using **Zabbix and Grafana**."
             ],
             "dateText": "06/2022 – 01/2023"
@@ -63,10 +44,21 @@
             "workDescription": [
                 "Performed **manual and automated software testing** to ensure application reliability.",
                 "Developed automation scripts using **Python and Selenium**, improving efficiency by reducing repetitive workflows.",
-                "Implemented **monitoring and dashboards** for large-scale networks with over **10,000 clients**, using **Grafana, Zabbix, and GineACS**.",
+                "Implemented **monitoring and dashboards** for large-scale networks with over **10,000 clients**, using **Grafana, Zabbix, and GenieACS**.",
                 "Configured and maintained **networking equipment**, including routers, Mikrotiks, and OLTs."
             ],
             "dateText": "01/2022 – 06/2022"
+        },
+        {
+            "title": "Full Stack Developer",
+            "subtitle": "Pipoca Ágil",
+            "workType": "Volunteer",
+            "workDescription": [
+                "Built **full-stack applications** using **React** for the frontend and **Spring Boot** for the backend.",
+                "Applied **Agile methodologies (Scrum)** to support iterative delivery and team organization.",
+                "Delivered scalable solutions to improve the organization's **internal processes**."
+            ],
+            "dateText": "07/2020 – 04/2022"
         },
         {
             "title": "IT Support",
