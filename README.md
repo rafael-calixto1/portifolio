@@ -10,7 +10,7 @@
 ## Features
 
 ⚡️ Modern UI Design + Reveal Animations\
-⚡️ Made with React\
+⚡️ Made with Angular 22\
 ⚡️ Fully Responsive\
 ⚡️ Easily Customizable\
 ⚡️ Well organized documentation
@@ -33,7 +33,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites 📋
 
-You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [NPM](http://npmjs.com)) installed on your computer.
+You'll need [Git](https://git-scm.com) and [Node.js 24+](https://nodejs.org/en/download/) (which comes with [NPM](http://npmjs.com)) installed on your computer.
 
 Also, you can use [Yarn](https://yarnpkg.com/) instead of NPM ☝️
 
@@ -58,10 +58,9 @@ Using NPM: Simply run the below commands.
 
 ```bash
 # Install dependencies
-$ npm install --legacy-peer-deps
+$ npm install
 
 # Force audit fix
-$ npm audit fix --force
 
 # Start the development server
 $ npm start
@@ -233,7 +232,7 @@ It has 2 keys, *logo* and *sections*.
 | key | Description |
 | ----------- | ----------- |
 | social | array of social links | 
-| social.network | network name as provided in [react-social-icons](https://jaketrent.github.io/react-social-icons/) |
+| social.network | `linkedin`, `github` or `email` (add more icons in `src/app/components/social.ts`) |
 | social.href | link for particular social network |
 
 - we are using [react-social-icons](https://jaketrent.github.io/react-social-icons/) here. you can visit it to see all available social icons to use

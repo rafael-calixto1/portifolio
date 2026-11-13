@@ -1,8 +1,6 @@
 {
-  "installCommand": "npm ci --legacy-peer-deps",
-  "build": {
-    "env": {
-      "NPM_CONFIG_LEGACY_PEER_DEPS": "true"
-    }
-  }
+  "framework": "angular",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/portfolio-app/browser",
+  "rewrites": [{ "source": "/((?!profile/|images/).*)", "destination": "/index.html" }]
 }
