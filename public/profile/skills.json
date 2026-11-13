@@ -4,61 +4,565 @@
     {
       "title": "Languages",
       "items": [
-        { "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/typescript/typescript-original.svg", "title": "TypeScript" },
-        { "icon": "images/skills/js.png", "title": "JavaScript" },
-        { "icon": "images/skills/java.png", "title": "Java" },
-        { "icon": "images/skills/python.png", "title": "Python" },
-        { "icon": "images/skills/php.png", "title": "PHP" },
-        { "icon": "images/skills/c-sharp.png", "title": "C#" }
+        {
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/typescript/typescript-original.svg",
+          "title": "TypeScript",
+          "details": {
+            "summary": "My main language today. I write strict, end-to-end typed code: shared types and zod contracts between frontend, API and workers, typed database access with Prisma and typed Angular/React components.",
+            "projects": [
+              {
+                "name": "VFoster",
+                "text": "Whole pnpm monorepo in TypeScript: Next.js app, BullMQ workers, WhatsApp gateway and shared packages (auth, utils, database, automation contracts with zod)."
+              },
+              {
+                "name": "CW Campo (mobile app)",
+                "text": "React Native (Expo) app for field technicians, written in TypeScript and consuming the internal system's mobile API."
+              },
+              {
+                "name": "SmartFleet",
+                "text": "React + TypeScript frontend with Redux and Material-UI, tested with Jest."
+              },
+              {
+                "name": "Dev Portfolio",
+                "text": "This site: Angular 22 with standalone components, signals and strict type checking."
+              },
+              {
+                "name": "Finance Simulator",
+                "text": "React + TypeScript frontend with interactive charts and a monthly breakdown, talking to a Spring Boot API."
+              }
+            ]
+          }
+        },
+        {
+          "icon": "images/skills/js.png",
+          "title": "JavaScript",
+          "details": {
+            "summary": "Years of production JavaScript on both sides of the stack: modern ES modules on Node.js and React SPAs.",
+            "projects": [
+              {
+                "name": "Conexão Web — Internal System",
+                "text": "Express backend (ES modules) and React frontend with 15+ modules used daily by an ISP."
+              },
+              {
+                "name": "Indique e Ganhe",
+                "text": "Public referral portal and CRM panel in React, with a Node.js API integrated with Hubsoft."
+              },
+              {
+                "name": "Gemini Chat",
+                "text": "Chat app with a Next.js/React frontend and a Node.js WebSocket backend."
+              },
+              {
+                "name": "RouterControl Bot",
+                "text": "Node.js WhatsApp bot built with Venom-bot that triggers router automations on command."
+              }
+            ]
+          }
+        },
+        {
+          "icon": "images/skills/java.png",
+          "title": "Java",
+          "details": {
+            "summary": "Object-oriented backend development with Java and the Spring ecosystem: REST APIs, layered architecture and relational databases.",
+            "projects": [
+              {
+                "name": "Finance Simulator",
+                "text": "Spring Boot API that runs compound interest simulations with multi-currency and multi-language support."
+              },
+              {
+                "name": "Conexão Web (2022)",
+                "text": "Fleet management web app built with Spring Boot from concept to deploy, plus REST and WebSocket integrations with the ERP."
+              },
+              {
+                "name": "Pipoca Ágil",
+                "text": "Full-stack apps with a Spring Boot backend in a Scrum team."
+              },
+              {
+                "name": "Spring Boot Blog",
+                "text": "Blog application with a Spring backend and an Angular frontend."
+              },
+              {
+                "name": "Spring Chat",
+                "text": "One-on-one real-time chat using WebSockets in Spring."
+              }
+            ]
+          }
+        },
+        {
+          "icon": "images/skills/python.png",
+          "title": "Python",
+          "details": {
+            "summary": "Automation and scripting: browser automation, bots and scripts that remove manual operational work.",
+            "projects": [
+              {
+                "name": "RouterControl Bot",
+                "text": "WhatsApp bot that resets and configures ZTE routers, with natural language understanding using Rasa and browser automation with Selenium."
+              },
+              {
+                "name": "Conexão Web — Automations",
+                "text": "Python scripts on Linux that automate technical and administrative processes at the ISP."
+              },
+              {
+                "name": "ZTE Bots",
+                "text": "Python + Selenium WebDriver scripts that log in to router admin panels to configure and reset them, with credentials kept in .env files."
+              }
+            ]
+          }
+        },
+        {
+          "icon": "images/skills/php.png",
+          "title": "PHP",
+          "details": {
+            "summary": "Server-side PHP with the MVC pattern, built during my technical and university courses.",
+            "projects": [
+              {
+                "name": "Projeto MIMO",
+                "text": "\"Meu Inventário, Meu Organizador\": a PHP inventory organizer with a JavaScript frontend."
+              },
+              {
+                "name": "Academic MVC projects",
+                "text": "PHP MVC web applications built for coursework, including a fitness app (4fit)."
+              }
+            ]
+          }
+        },
+        {
+          "icon": "images/skills/c-sharp.png",
+          "title": "C#",
+          "details": {
+            "summary": "Object-oriented desktop and systems development fundamentals with C# and .NET.",
+            "projects": [
+              {
+                "name": "C# Systems Development",
+                "text": "Systems development course projects in C# and Visual Basic .NET."
+              }
+            ]
+          }
+        }
       ]
     },
     {
       "title": "Frontend & Mobile",
       "items": [
-        { "icon": "images/skills/react.png", "title": "React" },
-        { "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/nextjs/nextjs-original.svg", "title": "Next.js", "mono": true },
-        { "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/angular/angular-original.svg", "title": "Angular" },
-        { "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/tailwindcss/tailwindcss-original.svg", "title": "Tailwind CSS" },
-        { "icon": "images/skills/react.png", "title": "React Native" },
-        { "icon": "images/skills/android_new.png", "title": "Android" }
+        {
+          "icon": "images/skills/react.png",
+          "title": "React",
+          "details": {
+            "summary": "My go-to UI library: SPAs and PWAs, complex forms, dashboards, role-based screens and real-time updates.",
+            "projects": [
+              {
+                "name": "VFoster",
+                "text": "Restaurant dashboard with orders, menu, tables, cash register, inventory, chat and analytics, plus each restaurant's public ordering site."
+              },
+              {
+                "name": "Conexão Web — Internal System",
+                "text": "React (Vite) PWA with 15+ modules: processes, inventory, service orders, tickets, fleet and dashboards."
+              },
+              {
+                "name": "Indique e Ganhe",
+                "text": "Public referral portal and internal CRM with funnel and conversion dashboards."
+              },
+              {
+                "name": "SmartFleet",
+                "text": "Fleet management frontend with Redux and Material-UI."
+              }
+            ]
+          }
+        },
+        {
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/nextjs/nextjs-original.svg",
+          "title": "Next.js",
+          "mono": true,
+          "details": {
+            "summary": "Full-stack Next.js with the App Router: route handlers as the API, middleware for multi-tenant routing and standalone builds.",
+            "projects": [
+              {
+                "name": "VFoster",
+                "text": "Multi-tenant SaaS on the App Router with 160+ API route handlers, tenant resolution by subdomain or custom domain, and a standalone Docker build."
+              },
+              {
+                "name": "Gemini Chat",
+                "text": "Chat interface for Google Gemini AI built with Next.js."
+              }
+            ]
+          }
+        },
+        {
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/angular/angular-original.svg",
+          "title": "Angular",
+          "details": {
+            "summary": "Modern Angular: standalone components, signals, lazy-loaded routes and data-driven pages.",
+            "projects": [
+              {
+                "name": "Dev Portfolio",
+                "text": "Migrated this portfolio from React (CRA) to Angular 22 with a refreshed design, light/dark themes and content loaded from JSON."
+              },
+              {
+                "name": "Spring Boot Blog",
+                "text": "Angular + TypeScript frontend for a blog backed by a Spring API."
+              }
+            ]
+          }
+        },
+        {
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/tailwindcss/tailwindcss-original.svg",
+          "title": "Tailwind CSS",
+          "details": {
+            "summary": "Utility-first styling for fast, consistent and responsive UIs.",
+            "projects": [
+              {
+                "name": "VFoster",
+                "text": "The restaurant dashboard, super admin panel and public sites are all styled with Tailwind."
+              },
+              {
+                "name": "Conexão Web (2022)",
+                "text": "React + Tailwind frontends for internal applications."
+              }
+            ]
+          }
+        },
+        {
+          "icon": "images/skills/react.png",
+          "title": "React Native",
+          "details": {
+            "summary": "Cross-platform mobile apps with React Native and Expo, sharing the backend with the web platform.",
+            "projects": [
+              {
+                "name": "CW Campo (mobile app)",
+                "text": "App for field technicians to handle service orders on the go, built with Expo and TypeScript."
+              }
+            ]
+          }
+        },
+        {
+          "icon": "images/skills/android_new.png",
+          "title": "Android"
+        }
       ]
     },
     {
       "title": "Backend & Data",
       "items": [
-        { "icon": "images/skills/nodejs.png", "title": "Node.js" },
-        { "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/express/express-original.svg", "title": "Express", "mono": true },
-        { "icon": "images/skills/spring-boot.png", "title": "Spring Boot" },
-        { "icon": "images/skills/laravel.png", "title": "Laravel" },
-        { "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/graphql/graphql-plain.svg", "title": "GraphQL" },
-        { "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/prisma/prisma-original.svg", "title": "Prisma", "mono": true },
-        { "icon": "images/skills/postgresql.png", "title": "PostgreSQL" },
-        { "icon": "images/skills/mysql.png", "title": "MySQL" },
-        { "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/redis/redis-original.svg", "title": "Redis" },
-        { "icon": "images/skills/oracle.png", "title": "Oracle" }
+        {
+          "icon": "images/skills/nodejs.png",
+          "title": "Node.js",
+          "details": {
+            "summary": "My main backend runtime: REST APIs, background workers, integrations and webhooks, run with pm2 or Docker.",
+            "projects": [
+              {
+                "name": "Conexão Web — Internal System",
+                "text": "Express API with auth, role-based permissions, audit trail, rate limiting, idempotency and ~75 automated test files."
+              },
+              {
+                "name": "VFoster",
+                "text": "BullMQ workers for orders, e-mails, webhooks, iFood polling and 99Food dispatch, plus a WhatsApp gateway."
+              },
+              {
+                "name": "Indique e Ganhe",
+                "text": "Referral validation and automatic rewards applied in the Hubsoft ERP, with protection against double rewards."
+              },
+              {
+                "name": "SmartFleet",
+                "text": "Express API with JWT authentication and reporting endpoints."
+              }
+            ]
+          }
+        },
+        {
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/express/express-original.svg",
+          "title": "Express",
+          "mono": true,
+          "details": {
+            "summary": "Production Express APIs organized by modules, with middleware for auth, roles, auditing and rate limiting.",
+            "projects": [
+              {
+                "name": "Conexão Web — Internal System",
+                "text": "Modular Express backend serving 15+ modules and a mobile API for technicians."
+              },
+              {
+                "name": "Indique e Ganhe",
+                "text": "Referral API and webhooks integrated with Hubsoft."
+              },
+              {
+                "name": "VFoster",
+                "text": "WhatsApp gateway service with one session per restaurant."
+              },
+              {
+                "name": "SmartFleet",
+                "text": "REST API for vehicles, drivers and maintenance."
+              }
+            ]
+          }
+        },
+        {
+          "icon": "images/skills/spring-boot.png",
+          "title": "Spring Boot",
+          "details": {
+            "summary": "REST APIs with Spring Boot, layered architecture and integration with React frontends.",
+            "projects": [
+              {
+                "name": "Finance Simulator",
+                "text": "Simulation API for compound interest investments."
+              },
+              {
+                "name": "Conexão Web (2022)",
+                "text": "Fleet management application and ERP integrations with REST and WebSockets."
+              },
+              {
+                "name": "Pipoca Ágil",
+                "text": "Backend for internal process tools, delivered in Scrum sprints."
+              },
+              {
+                "name": "Spring Boot Blog",
+                "text": "REST backend for a blog with an Angular frontend."
+              },
+              {
+                "name": "Spring Chat",
+                "text": "Real-time one-on-one chat with Spring WebSockets."
+              }
+            ]
+          }
+        },
+        {
+          "icon": "images/skills/laravel.png",
+          "title": "Laravel"
+        },
+        {
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/graphql/graphql-plain.svg",
+          "title": "GraphQL",
+          "details": {
+            "summary": "Consuming and integrating GraphQL APIs alongside REST in real business workflows.",
+            "projects": [
+              {
+                "name": "Conexão Web — Internal System",
+                "text": "Integration with the Hubsoft ISP ERP through REST and GraphQL."
+              },
+              {
+                "name": "Indique e Ganhe",
+                "text": "Referral validation and reward application through the Hubsoft API."
+              }
+            ]
+          }
+        },
+        {
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/prisma/prisma-original.svg",
+          "title": "Prisma",
+          "mono": true,
+          "details": {
+            "summary": "Type-safe data access and schema migrations with Prisma.",
+            "projects": [
+              {
+                "name": "VFoster",
+                "text": "Prisma for the platform's global schema with versioned migrations, alongside per-tenant SQL migrations."
+              }
+            ]
+          }
+        },
+        {
+          "icon": "images/skills/postgresql.png",
+          "title": "PostgreSQL",
+          "details": {
+            "summary": "Schema design, migrations and multi-tenant data isolation.",
+            "projects": [
+              {
+                "name": "VFoster",
+                "text": "One isolated PostgreSQL schema per restaurant, created and migrated automatically, plus a shared schema for platform data."
+              },
+              {
+                "name": "Conexão Web (2022)",
+                "text": "Optimized PostgreSQL databases supporting internal applications."
+              }
+            ]
+          }
+        },
+        {
+          "icon": "images/skills/mysql.png",
+          "title": "MySQL",
+          "details": {
+            "summary": "Relational modeling, versioned migrations and query tuning for systems used every day.",
+            "projects": [
+              {
+                "name": "Conexão Web — Internal System",
+                "text": "MySQL/MariaDB database evolved through 70 versioned migrations."
+              },
+              {
+                "name": "Indique e Ganhe",
+                "text": "Referral funnel tracking from prospect to installation and first payment."
+              },
+              {
+                "name": "Conexão Web — Fleet",
+                "text": "Vehicles, drivers, fueling, maintenance and documents, with soft deletes and a full audit trail."
+              },
+              {
+                "name": "SmartFleet",
+                "text": "Database for fleet tracking and maintenance history."
+              }
+            ]
+          }
+        },
+        {
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/redis/redis-original.svg",
+          "title": "Redis",
+          "details": {
+            "summary": "Queues and caching with Redis and BullMQ for reliable background processing.",
+            "projects": [
+              {
+                "name": "VFoster",
+                "text": "BullMQ queues on Redis for orders, e-mails, webhooks, iFood/99Food integrations and WhatsApp automation flows."
+              }
+            ]
+          }
+        },
+        {
+          "icon": "images/skills/oracle.png",
+          "title": "Oracle"
+        }
       ]
     },
     {
       "title": "DevOps & Infrastructure",
       "items": [
-        { "icon": "images/skills/docker.png", "title": "Docker" },
-        { "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/linux/linux-original.svg", "title": "Linux" },
-        { "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/nginx/nginx-original.svg", "title": "Nginx" },
-        { "icon": "images/skills/github_actions.png", "title": "GitHub Actions" },
-        { "icon": "images/skills/aws.png", "title": "AWS" },
-        { "icon": "images/skills/azure.png", "title": "Azure" },
-        { "icon": "images/skills/jenkins.png", "title": "Jenkins" },
-        { "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/grafana/grafana-original.svg", "title": "Grafana" }
+        {
+          "icon": "images/skills/docker.png",
+          "title": "Docker",
+          "details": {
+            "summary": "Containerized apps and infrastructure with Docker Compose for development and production.",
+            "projects": [
+              {
+                "name": "VFoster",
+                "text": "Separate images for the web app, workers and WhatsApp gateway, plus PostgreSQL, Redis, MinIO and Nginx in Compose."
+              },
+              {
+                "name": "Finance Simulator",
+                "text": "Spring Boot API and React frontend containerized with Docker for easy deployment."
+              }
+            ]
+          }
+        },
+        {
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/linux/linux-original.svg",
+          "title": "Linux",
+          "details": {
+            "summary": "Day-to-day server administration: processes, services, logs, deploys and automation scripts.",
+            "projects": [
+              {
+                "name": "Conexão Web — Internal System",
+                "text": "Run the company's servers with pm2-managed services, deploys and monitoring."
+              },
+              {
+                "name": "VFoster",
+                "text": "Production server with Docker, systemd services and a self-hosted CI runner."
+              }
+            ]
+          }
+        },
+        {
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/nginx/nginx-original.svg",
+          "title": "Nginx",
+          "details": {
+            "summary": "Reverse proxy, TLS and multi-domain routing.",
+            "projects": [
+              {
+                "name": "VFoster",
+                "text": "Nginx in front of the SaaS, routing every restaurant subdomain and custom domain, with wildcard certificates via Certbot."
+              }
+            ]
+          }
+        },
+        {
+          "icon": "images/skills/github_actions.png",
+          "title": "GitHub Actions",
+          "details": {
+            "summary": "CI/CD pipelines that build, migrate and deploy automatically.",
+            "projects": [
+              {
+                "name": "VFoster",
+                "text": "Deploy workflow on GitHub Actions with a self-hosted runner on the production server."
+              }
+            ]
+          }
+        },
+        {
+          "icon": "images/skills/aws.png",
+          "title": "AWS"
+        },
+        {
+          "icon": "images/skills/azure.png",
+          "title": "Azure"
+        },
+        {
+          "icon": "images/skills/jenkins.png",
+          "title": "Jenkins"
+        },
+        {
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/grafana/grafana-original.svg",
+          "title": "Grafana",
+          "details": {
+            "summary": "Monitoring dashboards and alerting for servers and networks, together with Zabbix.",
+            "projects": [
+              {
+                "name": "Conexão Web — NOC",
+                "text": "Dashboards for a network of 10,000+ customers using Grafana, Zabbix and GenieACS."
+              }
+            ]
+          }
+        }
       ]
     },
     {
       "title": "Testing & Tools",
       "items": [
-        { "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/cypressio/cypressio-original.svg", "title": "Cypress", "mono": true },
-        { "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/selenium/selenium-original.svg", "title": "Selenium" },
-        { "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/postman/postman-original.svg", "title": "Postman" },
-        { "icon": "images/skills/git.png", "title": "Git" },
-        { "icon": "images/skills/android-studio.png", "title": "Android Studio" }
+        {
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/cypressio/cypressio-original.svg",
+          "title": "Cypress",
+          "mono": true,
+          "details": {
+            "summary": "End-to-end test automation for web apps.",
+            "projects": [
+              {
+                "name": "Payever",
+                "text": "Automated frontend tests with Cypress, increasing test coverage."
+              }
+            ]
+          }
+        },
+        {
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/selenium/selenium-original.svg",
+          "title": "Selenium",
+          "details": {
+            "summary": "Browser automation for testing and for automating repetitive tasks.",
+            "projects": [
+              {
+                "name": "RouterControl Bot",
+                "text": "Drives router admin pages to reset and configure ZTE routers from WhatsApp."
+              },
+              {
+                "name": "Conexão Web — QA",
+                "text": "Python + Selenium scripts that replaced repetitive manual workflows."
+              }
+            ]
+          }
+        },
+        {
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/postman/postman-original.svg",
+          "title": "Postman",
+          "details": {
+            "summary": "API testing and exploration.",
+            "projects": [
+              {
+                "name": "Payever",
+                "text": "API testing and validation with Postman as part of QA."
+              }
+            ]
+          }
+        },
+        {
+          "icon": "images/skills/git.png",
+          "title": "Git"
+        },
+        {
+          "icon": "images/skills/android-studio.png",
+          "title": "Android Studio"
+        }
       ]
     }
   ]

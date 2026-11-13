@@ -16,7 +16,13 @@ export interface AboutData {
 }
 export interface SkillsData {
   intro: string;
-  skills: { title: string; items: { title: string; icon: string; mono?: boolean }[] }[];
+  skills: { title: string; items: Skill[] }[];
+}
+export interface Skill {
+  title: string;
+  icon: string;
+  mono?: boolean;
+  details?: { summary: string; projects: { name: string; text: string }[] };
 }
 export interface EducationData {
   education: {
