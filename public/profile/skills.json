@@ -1,119 +1,65 @@
 {
-    "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with:",
-    "skills": [
-      {
-        "title": "Languages & Databases",
-        "items": [
-          {
-            "icon": "images/skills/java.png",
-            "title": "Java"
-          },
-          {
-            "icon": "images/skills/php.png",
-            "title": "PHP"
-          },
-          {
-            "icon": "images/skills/js.png",
-            "title": "JavaScript"
-          },
-          {
-            "icon": "images/skills/python.png",
-            "title": "Python"
-          },
-          {
-            "icon": "images/skills/mysql.png",
-            "title": "MySQL"
-          },
-          {
-            "icon": "images/skills/postgresql.png",
-            "title": "PostgreSQL"
-          },
-          {
-            "icon": "images/skills/oracle.png",
-            "title": "Oracle"
-          },
-          {
-            "icon": "images/skills/c-sharp.png",
-            "title": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Frameworks & Technologies",
-        "items": [
-          {
-            "icon": "images/skills/android_new.png",
-            "title": "Android"
-          },
-          {
-            "icon": "images/skills/react.png",
-            "title": "React Native"
-          },
-          {
-            "icon": "images/skills/react.png",
-            "title": "React"
-          },
-          {
-            "icon": "images/skills/nodejs.png",
-            "title": "Nodejs"
-          },
-          {
-            "icon": "images/skills/spring-boot.png",
-            "title": "Spring Boot"
-          },
-          {
-            "icon": "images/skills/laravel.png",
-            "title": "Laravel"
-          }
-        ]
-      },
-      {
-        "title": "Tools & Platforms",
-        "items": [
-          {
-            "icon": "images/skills/android-studio.png",
-            "title": "Android Studio"
-          },
-          {
-            "icon": "images/skills/git.png",
-            "title": "Git"
-          },
-          {
-            "icon": "images/skills/docker.png",
-            "title": "Docker"
-          },
-          {
-            "icon": "images/skills/aws.png",
-            "title": "AWS"
-          },
-          {
-            "icon": "images/skills/azure.png",
-            "title": "Azure"
-          },
-          {
-            "icon": "images/skills/jenkins.png",
-            "title": "Jenkins"
-          },
-          {
-            "icon": "images/skills/github_actions.png",
-            "title": "GitHub Actions"
-          },
-          {
-            "icon": "images/skills/ci-cd.png",
-            "title": "CI/CD"
-          }
-        ]
-      }
-    ],
-    "projects": [
-      {
-        "icon": "images/projects/chat-app-logo.jpg",
-        "title": "Chat App"
-      },
-      {
-        "icon": "images/projects/gemini-poster.png",
-        "title": "Gemini Poster"
-      }
-    ]
-  }
-  
+  "intro": "I work across the whole stack — from the UI to the database, the server it runs on and the monitoring that keeps it alive.\nThese are the languages, frameworks, tools and platforms I use most:",
+  "skills": [
+    {
+      "title": "Languages",
+      "items": [
+        { "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/typescript/typescript-original.svg", "title": "TypeScript" },
+        { "icon": "images/skills/js.png", "title": "JavaScript" },
+        { "icon": "images/skills/java.png", "title": "Java" },
+        { "icon": "images/skills/python.png", "title": "Python" },
+        { "icon": "images/skills/php.png", "title": "PHP" },
+        { "icon": "images/skills/c-sharp.png", "title": "C#" }
+      ]
+    },
+    {
+      "title": "Frontend & Mobile",
+      "items": [
+        { "icon": "images/skills/react.png", "title": "React" },
+        { "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/nextjs/nextjs-original.svg", "title": "Next.js", "mono": true },
+        { "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/angular/angular-original.svg", "title": "Angular" },
+        { "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/tailwindcss/tailwindcss-original.svg", "title": "Tailwind CSS" },
+        { "icon": "images/skills/react.png", "title": "React Native" },
+        { "icon": "images/skills/android_new.png", "title": "Android" }
+      ]
+    },
+    {
+      "title": "Backend & Data",
+      "items": [
+        { "icon": "images/skills/nodejs.png", "title": "Node.js" },
+        { "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/express/express-original.svg", "title": "Express", "mono": true },
+        { "icon": "images/skills/spring-boot.png", "title": "Spring Boot" },
+        { "icon": "images/skills/laravel.png", "title": "Laravel" },
+        { "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/graphql/graphql-plain.svg", "title": "GraphQL" },
+        { "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/prisma/prisma-original.svg", "title": "Prisma", "mono": true },
+        { "icon": "images/skills/postgresql.png", "title": "PostgreSQL" },
+        { "icon": "images/skills/mysql.png", "title": "MySQL" },
+        { "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/redis/redis-original.svg", "title": "Redis" },
+        { "icon": "images/skills/oracle.png", "title": "Oracle" }
+      ]
+    },
+    {
+      "title": "DevOps & Infrastructure",
+      "items": [
+        { "icon": "images/skills/docker.png", "title": "Docker" },
+        { "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/linux/linux-original.svg", "title": "Linux" },
+        { "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/nginx/nginx-original.svg", "title": "Nginx" },
+        { "icon": "images/skills/github_actions.png", "title": "GitHub Actions" },
+        { "icon": "images/skills/aws.png", "title": "AWS" },
+        { "icon": "images/skills/azure.png", "title": "Azure" },
+        { "icon": "images/skills/jenkins.png", "title": "Jenkins" },
+        { "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/grafana/grafana-original.svg", "title": "Grafana" }
+      ]
+    },
+    {
+      "title": "Testing & Tools",
+      "items": [
+        { "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/cypressio/cypressio-original.svg", "title": "Cypress", "mono": true },
+        { "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/selenium/selenium-original.svg", "title": "Selenium" },
+        { "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/postman/postman-original.svg", "title": "Postman" },
+        { "icon": "images/skills/git.png", "title": "Git" },
+        { "icon": "images/skills/android-studio.png", "title": "Android Studio" }
+      ]
+    }
+  ]
+}

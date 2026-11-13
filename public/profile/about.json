@@ -1,5 +1,42 @@
 {
-    "about": "I am a Developer with expertise in Java (Spring Boot), Node.js, and PHP (Laravel). My experience spans backend architecture, API development, cloud services, and frontend technologies like React.\n\n🔹 What I Do:\n✅ Build and optimize scalable backend systems with a focus on performance and security.\n✅ Develop RESTful APIs and microservices, ensuring seamless integration between services.\n✅ Work with AWS (EC2, RDS), Docker, and Kubernetes to deploy and maintain cloud-based solutions.\n✅ Design and develop frontend applications using React and TailwindCSS for freelance projects.\n✅ Improve database performance and scalability, implementing indexing, caching, and query optimizations.\n\n🎯 My Goals:\n🚀 Build robust and scalable software solutions for businesses and clients.\n💡 Stay updated with the latest trends in cloud computing, DevOps, and fullstack development.\n📈 Expand my expertise in high-performance systems and distributed architectures.",
-    "imageSource": "images/about/profile.jpg"
-    
+    "status": "Open to new opportunities",
+    "headline": "I build software that real businesses run on every day.",
+    "about": "I'm a **full-stack developer** from Brazil who ships production systems end to end — from the database schema and the API to the UI, the deploy and the 3 a.m. monitoring alert.\n\nToday I'm the developer behind **VFoster**, a multi-tenant restaurant SaaS live in production, and the **internal management platform of Conexão Web Telecom**, an internet provider whose teams use it every day for processes, inventory, service orders, fleet and customer referrals.\n\nI started in tech in 2012 doing hands-on IT support, moved through QA and network operations, and now combine all of it: I write the code, understand the infrastructure it runs on and test it like someone who has been on call for it.",
+    "location": "Mogi das Cruzes, São Paulo — Brazil",
+    "imageSource": "images/about/profile.jpg",
+    "stats": [
+        { "value": "10+", "label": "years working in tech" },
+        { "value": "2", "label": "production platforms built and maintained" },
+        { "value": "10k+", "label": "ISP customers on monitored networks" },
+        { "value": "15+", "label": "modules in the ISP management system" }
+    ],
+    "highlights": [
+        {
+            "icon": "shop",
+            "title": "Multi-tenant SaaS",
+            "text": "**VFoster** gives each restaurant its own domain and **isolated PostgreSQL schema**, with orders, menu, QR-code tables, cash register, inventory and analytics. Integrated with **iFood, 99Food, Stripe and WhatsApp**, with background workers on **BullMQ/Redis**."
+        },
+        {
+            "icon": "building",
+            "title": "Internal platforms",
+            "text": "A **Node.js + React + MySQL** system with 15+ modules used daily at an ISP — integrated with the **Hubsoft ERP** (REST and GraphQL), covered by automated tests and evolved through 70 versioned database migrations."
+        },
+        {
+            "icon": "phone",
+            "title": "Mobile for field teams",
+            "text": "A **React Native (Expo)** app that lets field technicians handle service orders on the go, talking to the same backend as the web platform."
+        },
+        {
+            "icon": "hdd-network",
+            "title": "Infra & automation",
+            "text": "Monitoring with **Zabbix and Grafana**, network equipment (OLTs, MikroTik, **TR-069 / GenieACS**), Docker + Nginx deploys with **CI/CD on GitHub Actions**, and Python automations that remove manual work."
+        }
+    ],
+    "focus": [
+        "Distributed & multi-tenant architectures",
+        "TypeScript end to end",
+        "Event-driven workers and queues",
+        "Observability and reliability",
+        "Computer Science degree @ Braz Cubas (2027)"
+    ]
 }

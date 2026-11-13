@@ -4,10 +4,19 @@ export interface NavbarData {
 }
 export interface HomeData { name: string; roles: string[]; }
 export interface SocialData { social: { network: string; href: string }[]; }
-export interface AboutData { about: string; imageSource?: string; }
+export interface AboutData {
+  about: string;
+  imageSource?: string;
+  headline?: string;
+  location?: string;
+  status?: string;
+  stats?: { value: string; label: string }[];
+  highlights?: { icon: string; title: string; text: string }[];
+  focus?: string[];
+}
 export interface SkillsData {
   intro: string;
-  skills: { title: string; items: { title: string; icon: string }[] }[];
+  skills: { title: string; items: { title: string; icon: string; mono?: boolean }[] }[];
 }
 export interface EducationData {
   education: {

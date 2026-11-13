@@ -20,7 +20,7 @@ import { ProfileData } from '../core/profile-data';
               <div class="grid">
                 @for (item of group.items; track item.title) {
                   <div class="skill pressable">
-                    <img [src]="item.icon" alt="" loading="lazy" />
+                    <img [src]="item.icon" [class.mono]="item.mono" alt="" loading="lazy" />
                     <span>{{ item.title }}</span>
                   </div>
                 }
@@ -47,6 +47,7 @@ import { ProfileData } from '../core/profile-data';
     }
     @media (hover: hover) { .skill:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); } }
     .skill img { width: 2.75rem; height: 2.75rem; object-fit: contain; }
+    :host-context([data-theme='dark']) .skill img.mono { filter: invert(1); }
   `,
 })
 export class Skills {
