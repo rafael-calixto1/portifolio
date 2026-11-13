@@ -5,8 +5,9 @@
             "subtitle": "Conexão Web Telecom",
             "workType": "Full-time",
             "workDescription": [
-                "Develop and maintain **backend (Spring Boot, Node.js) and frontend (React)** applications for internal systems.",
-                "Perform **software testing and validation** to ensure the quality and reliability of internal systems.",
+                "Built and maintain the company's **internal management system** (Node.js, Express, React, MySQL): process guides, inventory, service orders, tickets and dashboards.",
+                "Created the **Indique e Ganhe** customer referral program, with a public portal and automatic rewards integrated with the **Hubsoft** ERP.",
+                "Developed the **fleet management** module: vehicles, drivers, fueling, maintenance, documents and fuel consumption analytics.",
                 "Monitor critical servers and services with **Zabbix and Grafana**, ensuring high availability.",
                 "Automate technical and administrative processes using **Python and Linux**, reducing manual work and operational failures.",
                 "Configure and manage network equipment, including **OLTs and TR-069 devices (GenieACS)**."

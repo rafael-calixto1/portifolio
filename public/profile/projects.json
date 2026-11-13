@@ -1,9 +1,72 @@
 {
-    "projects" : [
+    "projects": [
         {
-            "image" : "images/projects/portfolio-poster.png",
+            "image": "images/projects/vfoster-poster.svg",
+            "title": "VFoster — Restaurant Management SaaS",
+            "bodyText": "- Multi-tenant SaaS **running in production** for multiple restaurants.\n- Each restaurant gets its own subdomain or custom domain and an **isolated PostgreSQL schema**.\n- Orders, menu, tables with QR codes, cash register and finance, inventory, customers, franchises, analytics and a public ordering site.\n- Integrations: **iFood** and **99Food** order intake, **Stripe** subscriptions, **WhatsApp** chat with automation flows.\n- Background workers with **BullMQ/Redis**; Dockerized deploy behind Nginx with CI/CD on GitHub Actions.",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://vfoster.com.br/"
+                }
+            ],
+            "tags": [
+                "Next.js",
+                "React",
+                "TypeScript",
+                "PostgreSQL",
+                "Prisma",
+                "Redis",
+                "BullMQ",
+                "Stripe",
+                "WhatsApp",
+                "Docker"
+            ]
+        },
+        {
+            "image": "images/projects/conexaoweb-system-poster.svg",
+            "title": "Conexão Web — Internal Management System",
+            "bodyText": "- Internal platform used daily by the teams of **Conexão Web Telecom**, an internet service provider.\n- Modules for step-by-step process guides, inventory, service orders, tickets, users and permissions, support guide and dashboards.\n- Integration with the **Hubsoft** ISP ERP (REST and GraphQL).\n- Companion mobile app for field technicians built with **React Native (Expo)**.\n- Express + MySQL backend with versioned migrations and automated tests.",
+            "tags": [
+                "Node.js",
+                "Express",
+                "React",
+                "Vite",
+                "MySQL",
+                "React Native",
+                "Hubsoft API"
+            ]
+        },
+        {
+            "image": "images/projects/indique-e-ganhe-poster.svg",
+            "title": "Indique e Ganhe — Referral Program",
+            "bodyText": "- Customer referral program for Conexão Web: a **public portal** where customers refer friends, plus an internal CRM panel.\n- Validates each referral against **Hubsoft** and tracks it from prospect to installation and first payment.\n- Applies rewards automatically in Hubsoft billing (discount or waived invoice), with an approval flow and protection against double rewards.\n- Program dashboard: funnel by cohort, conversion rate, time to install, reward cost and top referrers.\n- Explainer videos generated from code animations with **Playwright** and **FFmpeg**.",
+            "tags": [
+                "React",
+                "Vite",
+                "Node.js",
+                "Express",
+                "MySQL",
+                "Hubsoft API",
+                "GraphQL",
+                "Webhooks"
+            ]
+        },
+        {
+            "image": "images/projects/cw-fleet-poster.svg",
+            "title": "Conexão Web — Fleet Management",
+            "bodyText": "- Fleet module of the Conexão Web internal system, used to run the company vehicles.\n- Vehicles, drivers, fueling, maintenance, gas stations, workshops and vehicle documents.\n- Fuel consumption analytics and odometer tracking derived from fueling and maintenance records.\n- Recurring maintenance by km or days, maintenance items with attachments, document and driver license expiry dates.\n- Full audit trail and role-based permissions; records are deactivated, never deleted.",
+            "tags": [
+                "React",
+                "Node.js",
+                "Express",
+                "MySQL"
+            ]
+        },
+        {
+            "image": "images/projects/portfolio-poster.png",
             "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "bodyText": "- Developer portfolio website built with **Angular 22** (standalone components and signals).\n- Fully data-driven: content comes from JSON files, easy to update.\n- Light and dark themes, responsive layout and smooth page transitions.",
             "links": [
                 {
                     "text": "GitHub",
@@ -14,15 +77,14 @@
                     "href": "https://portifolio-three-psi-67.vercel.app/"
                 }
             ],
-            "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
+            "tags": [
+                "Angular",
+                "TypeScript",
+                "Portfolio"
             ]
         },
-        
         {
-            "image" : "images/projects/gemini-poster.png",
+            "image": "images/projects/gemini-poster.png",
             "title": "Gemini Chat",
             "bodyText": "- A modern chat application powered by Google's Gemini AI model for intelligent conversations and assistance.\n - Features real-time chat interface with natural language processing capabilities.\n - Built with Next.js/React.js frontend and Node.js backend.\n - Implements WebSocket for real-time communication.\n - Secure integration with Google's Gemini AI API.",
             "links": [
@@ -31,7 +93,7 @@
                     "href": "https://github.com/rafael-calixto1/gemini-chat"
                 }
             ],
-            "tags" : [
+            "tags": [
                 "Next.js",
                 "React.js",
                 "Node.js",
@@ -41,7 +103,7 @@
             ]
         },
         {
-            "image" : "images/projects/smart-fleet-poster.png",
+            "image": "images/projects/smart-fleet-poster.png",
             "title": "SmartFleet - Fleet Management System",
             "bodyText": "- A comprehensive fleet management system for organizations to manage vehicle fleets efficiently.\n - Features include real-time tracking, maintenance scheduling, and driver management.\n - Built with a modern tech stack: React.js/TypeScript frontend and Node.js/Express backend.\n - Includes fuel consumption analytics and maintenance history tracking.\n - Complete with reporting dashboard and JWT authentication.",
             "links": [
@@ -50,7 +112,7 @@
                     "href": "https://github.com/rafael-calixto1/SmartFleet"
                 }
             ],
-            "tags" : [
+            "tags": [
                 "TypeScript",
                 "React.js",
                 "Node.js",
@@ -60,7 +122,7 @@
                 "Redux",
                 "Jest"
             ]
-        }, 
+        },
         {
             "image": "images/projects/finance.png",
             "title": "Finance Simulator",
@@ -80,7 +142,6 @@
                 "Compound Interest"
             ]
         },
-
         {
             "title": "MVVM Sample App",
             "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
@@ -90,7 +151,7 @@
                     "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
                 }
             ],
-            "tags" : [
+            "tags": [
                 "Kotlin",
                 "Android",
                 "MVVM",
@@ -110,7 +171,7 @@
                     "href": "https://github.com/rafael-calixto1/whatsapp-router-control-bot"
                 }
             ],
-            "tags" : [
+            "tags": [
                 "Python",
                 "Node.js",
                 "Rasa",
@@ -129,7 +190,7 @@
                     "href": "https://github.com/mayankagarwal09/task-tracker-app"
                 }
             ],
-            "tags" : [
+            "tags": [
                 "TypeScript",
                 "Angular 12",
                 "JavaScript"
@@ -144,7 +205,7 @@
                     "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
                 }
             ],
-            "tags" : [
+            "tags": [
                 "Python",
                 "Django",
                 "SDES",
