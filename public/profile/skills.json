@@ -483,7 +483,52 @@
         },
         {
           "icon": "images/skills/aws.png",
-          "title": "AWS"
+          "title": "AWS",
+          "details": {
+            "summary": "I apply the core practices of the AWS Well-Architected Framework (object storage, containers, least-privilege access, observability, automated deploys) on the self-managed infrastructure of my production systems, which maps directly to services like S3, ECS, IAM, CloudWatch and CodePipeline.",
+            "projects": [
+              {
+                "name": "VFoster — Object storage (S3)",
+                "text": "Uploads stored in buckets through the S3 API (MinIO), so moving to Amazon S3 is a configuration change."
+              },
+              {
+                "name": "VFoster — Containers (ECS / ECR)",
+                "text": "Web app, workers and WhatsApp gateway shipped as separate Docker images, each scaled and restarted on its own."
+              },
+              {
+                "name": "VFoster — Data isolation (RDS)",
+                "text": "PostgreSQL 16 with one isolated schema per tenant, created automatically, and versioned migrations."
+              },
+              {
+                "name": "VFoster — Queues (SQS)",
+                "text": "Asynchronous processing with BullMQ/Redis queues for orders, e-mails, webhooks and integrations."
+              },
+              {
+                "name": "VFoster — Edge & TLS (CloudFront / ACM / Route 53)",
+                "text": "Nginx reverse proxy routing subdomains and custom domains, with automated wildcard certificates."
+              },
+              {
+                "name": "VFoster — CI/CD (CodePipeline)",
+                "text": "GitHub Actions pipeline with a self-hosted runner that builds, migrates and deploys automatically."
+              },
+              {
+                "name": "VFoster — Secrets (Secrets Manager / KMS)",
+                "text": "Secrets kept in environment variables and integration credentials encrypted at rest."
+              },
+              {
+                "name": "Conexão Web — Observability (CloudWatch)",
+                "text": "Zabbix and Grafana dashboards and alerts for servers and a network of 10,000+ customers."
+              },
+              {
+                "name": "Conexão Web — Least privilege (IAM)",
+                "text": "Role-based permissions, JWT auth, rate limiting and a full audit trail in the internal system."
+              },
+              {
+                "name": "Conexão Web — Reliability",
+                "text": "Services supervised by pm2 with automatic restarts, idempotent operations and soft deletes instead of hard deletes."
+              }
+            ]
+          }
         },
         {
           "icon": "images/skills/azure.png",
